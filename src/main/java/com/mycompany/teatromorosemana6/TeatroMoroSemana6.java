@@ -285,7 +285,7 @@ public class TeatroMoroSemana6 {
             this.precio = precio;
         }
 
-        @Override     //Ayud a acomprobar que se sobreescribe correctamente el método 
+        @Override     //Ayuda a acomprobar que se sobreescribe correctamente el método 
         public String toString() {
             return "Boleta #" + id + ": " + sector + " – Asiento " + asiento + " – $" + precio;
         }
