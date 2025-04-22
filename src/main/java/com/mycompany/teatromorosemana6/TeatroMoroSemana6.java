@@ -239,13 +239,13 @@ public class TeatroMoroSemana6 {
                     if (cantidadEntradas == 0) {
                         System.out.println("Aún no has confirmado ninguna compra.\n");
                     } else {
-                        // [Debug] Punto de depuración 7: Iniciar recorrido de boletas
+                        // [Debug] Punto de depuración: Iniciar recorrido de boletas
                         System.out.println("Boletas confirmadas:");
 
                         for (int i = 0; i < cantidadEntradas; i++) {
                             Ticket t = entradasCompradas[i];
 
-                            // [Debug] Punto de depuración 8: Mostrar detalles de cada ticket
+                            // [Debug] Punto de depuración: Mostrar detalles de cada ticket
                             System.out.println("     Ticket #" + (i + 1));
                             System.out.println("     Sector: " + t.sector);
                             System.out.println("     Asiento: " + t.asiento);
